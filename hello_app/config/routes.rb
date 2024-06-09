@@ -3,4 +3,6 @@ Rails.application.routes.draw do
 
   # Defines the root path route ("/")
   # root "articles#index"
+  # application_controller.rbのhelloをrootに設定する
+  root "application#hello"
 end
