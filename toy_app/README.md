@@ -22,3 +22,8 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+```sh
+$ rails generate scaffold User name:string email:string
+$ rails db:migrate
+```
