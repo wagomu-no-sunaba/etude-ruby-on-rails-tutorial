@@ -25,5 +25,6 @@ Things you may want to cover:
 
 ```sh
 $ rails generate scaffold User name:string email:string
+$ rails generate scaffold Micropost content:text user_id:integer
 $ rails db:migrate
 ```
